@@ -1,36 +1,24 @@
 public class Operadores {
 
     public static void main(String[] args){
-        int numero = 5;
-
-        //x repetição
-        //numero = numero + 8;
+        boolean condicao1=true;
         
-        //incrementar antes, basta mudar o "++" para
-        // a posição de prefixo:
-        // System.out.println( ++ numero );
-        
-        //decrementar antes, basta mudar o "++" para
-        // a posição de prefixo:
-        // System.out.println( numero -- );
-        
+        boolean condicao2=true;
 
-        System.out.println( numero -- );
+        if(condicao1 && ( 7 > 4 )){
+            System.out.println("as duas condições são verdadeiras");
+            
+        }
 
-        System.out.println(numero);
-
-        //também é possível negar expressões boleanas
-
-        boolean variavel = true;
-
-        variavel = !variavel;
-
-        System.out.println(variavel);
+        if(condicao1 || condicao2){
+            System.out.println("Um das condições são verdadeiras");
 
 
+        }
 
+    
 
-
+        System.err.println("fim");
     }
 
 
